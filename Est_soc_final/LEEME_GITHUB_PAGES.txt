@@ -1,0 +1,35 @@
+APRENDE CON VIVI – ESTUDIOS SOCIALES
+PAQUETE CORREGIDO PARA GITHUB PAGES Y iPAD
+
+ESTRUCTURA OBLIGATORIA
+Sube TODOS estos elementos a la raíz del repositorio. No cambies los nombres ni muevas los archivos:
+
+index.html
+manifest.webmanifest
+service-worker.js
+icons/
+    icon-192.png
+    icon-512.png
+    apple-touch-icon.png
+
+IMPORTANTE SOBRE LOS ICONOS
+Los tres archivos PNG deben permanecer dentro de la carpeta icons.
+No los dejes sueltos al lado de index.html. Las rutas del HTML, del manifiesto y del service worker esperan encontrarlos en ./icons/.
+
+PUBLICAR
+1. Descomprime este ZIP en tu computadora.
+2. Abre el repositorio de GitHub donde publicarás la práctica.
+3. Sube el archivo index.html, manifest.webmanifest, service-worker.js y la carpeta icons completa a la raíz del repositorio.
+4. En GitHub, entra en Settings > Pages.
+5. En Build and deployment elige Deploy from a branch.
+6. Selecciona la rama main y la carpeta /(root). Guarda.
+7. Espera a que GitHub Pages publique y abre la dirección HTTPS.
+8. En el iPad, abre esa dirección en Safari > Compartir > Añadir a pantalla de inicio.
+
+PARA ABRIR EL HTML EN WINDOWS
+Puedes abrir index.html con Edge o Chrome. La práctica y sus 12 partes están incrustadas en ese HTML.
+La instalación como aplicación PWA y el funcionamiento sin conexión del service worker requieren publicarla mediante HTTPS (por ejemplo, GitHub Pages). Abrir el archivo directamente desde el disco no activa el service worker.
+
+VALIDACIÓN
+El HTML contiene 12 prácticas incrustadas. Este paquete conserva el HTML recibido y agrega los archivos de instalación y los iconos que faltaban en la estructura mostrada.
+No se ha probado en un iPad físico.
