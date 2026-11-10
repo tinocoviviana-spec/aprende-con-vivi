@@ -1,0 +1,31 @@
+APRENDE CON VIVI – MATEMÁTICAS
+PAQUETE PARA GITHUB PAGES Y iPAD
+
+ESTRUCTURA
+Sube TODOS estos elementos a la raíz del repositorio, conservando los nombres y la carpeta icons:
+
+index.html
+manifest.webmanifest
+service-worker.js
+icons/
+    icon-192.png
+    icon-512.png
+    apple-touch-icon.png
+
+matematicas_aprende_con_vivi.html es una copia independiente del HTML original; no es necesaria para publicar la PWA, pero se incluye como respaldo para abrir la práctica directamente en Windows.
+
+PUBLICAR EN GITHUB PAGES
+1. Descomprime el ZIP.
+2. Sube index.html, manifest.webmanifest, service-worker.js y la carpeta icons completa a la raíz del repositorio.
+3. En GitHub abre Settings > Pages.
+4. En Build and deployment selecciona Deploy from a branch.
+5. Elige la rama main y la carpeta /(root), y guarda.
+6. Espera a que GitHub Pages publique la dirección HTTPS.
+7. En el iPad abre esa dirección con Safari > Compartir > Añadir a pantalla de inicio.
+
+ABRIR EN WINDOWS
+Puedes abrir matematicas_aprende_con_vivi.html o index.html con Edge o Chrome para ejecutar la práctica. La instalación PWA y el service worker requieren HTTPS (por ejemplo, GitHub Pages); abrir el archivo local directamente no activa el service worker.
+
+NOTA DE CONSERVACIÓN
+El archivo original se conserva como copia independiente. index.html añade únicamente los enlaces y metadatos PWA y el registro del service worker. No se han modificado los ejercicios ni su lógica.
+No se ha probado en un iPad físico.

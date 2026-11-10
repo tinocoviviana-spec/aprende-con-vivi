@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "Aprende con Vivi – Matemáticas",
+  "short_name": "Aprende con Vivi",
+  "description": "Práctica interactiva de Matemáticas: decenas y unidades.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#eaf1ff",
+  "theme_color": "#315fbd",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
