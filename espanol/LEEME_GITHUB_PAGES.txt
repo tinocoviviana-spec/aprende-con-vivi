@@ -1,0 +1,33 @@
+APRENDE CON VIVI – ESPAÑOL
+PAQUETE PARA GITHUB PAGES, iPAD, PC Y ANDROID
+
+ESTRUCTURA
+Este ZIP contiene la carpeta espanol. Sube esa carpeta completa al repositorio, dentro de la raíz de tu proyecto:
+- espanol/index.html
+- espanol/manifest.webmanifest
+- espanol/service-worker.js
+- espanol/icons/ (los tres iconos PNG)
+- espanol/practica_espanol_original.html (respaldo del HTML original)
+- espanol/.gitkeep (marcador opcional; ya no es necesario cuando la carpeta contiene archivos)
+
+PUBLICACIÓN
+1. Descomprime el ZIP.
+2. En GitHub abre el repositorio Aprende con Vivi.
+3. Sube la carpeta espanol completa a la raíz del repositorio (al mismo nivel que las otras carpetas de prácticas).
+4. Confirma con Commit changes y espera a que termine la carga.
+5. La dirección esperada de esta práctica será:
+   https://tinocoviviana-spec.github.io/aprende-con-vivi/espanol/
+6. Abre esa dirección en PC o Android. En iPad, abre con Safari y usa Compartir > Añadir a pantalla de inicio.
+
+IMPORTANTE
+- No cambies el nombre index.html ni muevas la carpeta icons.
+- No subas únicamente .gitkeep: la práctica real está en index.html.
+- Para instalar como PWA y usar la caché sin conexión se requiere HTTPS, como GitHub Pages.
+- En iPad, Safari es el método recomendado para Añadir a pantalla de inicio.
+- La carpeta icons debe permanecer junto a index.html, dentro de espanol.
+
+CONSERVACIÓN DE LA PRÁCTICA
+El archivo index.html conserva íntegramente el contenido, los estilos y el código de la práctica original. Solo se agregaron metadatos de instalación y el registro técnico del service worker. También se incluye practica_espanol_original.html como copia exacta del archivo recibido.
+
+COMPATIBILIDAD
+El diseño original incluye viewport móvil, reglas CSS responsive y controles táctiles. Se preparó para navegadores modernos en PC, iPad y Android. No se ha podido hacer una prueba física en cada dispositivo; por ello no se puede garantizar que todos los modelos y navegadores se comporten idénticamente.
